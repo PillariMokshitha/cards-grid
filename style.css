@@ -1,0 +1,60 @@
+/* universal selector */
+*{
+    padding:0px;
+    margin:0px;
+
+}
+
+/* tag selector with background color */
+body{
+    background-color:darkviolet;
+}
+
+
+h2,h3{
+    text-align: center;
+    margin:10px;
+    padding:5px;
+    color:white;
+}
+/* main grid with items */
+.container{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    gap:15px;
+    justify-content: center;
+}
+/* different grid items with same properties like color*/
+.card{
+    border-radius: 15px;
+    background-color:white;
+    
+}
+/* styling for image element */
+img{
+    width:200px;
+    height:200px;
+    padding:5px;
+    margin:10px 35px;
+}
+
+/* styling internal div section*/
+.content{
+    margin:30px;
+}
+
+/*  button class selector with different properties like color,size,*/
+.button1{
+    margin:10px 60px;
+    width:100px;
+    color:white;
+    text-align: center;
+    border-radius: 15px;
+    background-color:darkviolet;
+    padding:5px;
+}
+
+/* styling element inside content section*/
+.content h2{
+    color:darkviolet;
+}
